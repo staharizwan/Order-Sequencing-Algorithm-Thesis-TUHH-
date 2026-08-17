@@ -1,5 +1,13 @@
 # 🎓Master Thesis: **Development of Order Sequencing Algorithms for Semi-trailers in Inland Ports**
 
+## Confidentiality
+This repository contains the scheduling and optimization algorithms developed as part of my Master's thesis.
+
+The algorithms were integrated into a broader system comprising backend services, database infrastructure, and a Mapbox-based digital twin. These components are not included in this repository. The Mapbox-related repositories and underlying digital twin framework were developed by other contributors, remain under active development, and are therefore outside the scope of this public repository.
+
+My contribution focused primarily on the development, evaluation, and integration of the scheduling algorithms presented here.
+
+
 
 ## Introduction 📑✒️
 
@@ -55,6 +63,12 @@ This master's thesis was conducted with the department of Maritime Logistics at 
 9. The **Plans** sheet contains the all the generated plans (orders).
 10. The **Leftovers** sheet contains the semi-trailers that were not scheduled inside the available scheduling window (the .env.example contains all the variables needed to run the algorithms).
 11. Plans can be easily read by filtering the equipment(s) and scenario(s) of choice, **SequencePos** helps with the sequence determination. 
+
+
+## Results
+The results obtained from this thesis are available in the **Results** folder.
+Please read this **README** to understand the evaluation metrics, nomenclature and values presented in the results.
+
 
 
 ## Project Structure 📁
